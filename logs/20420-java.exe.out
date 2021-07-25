@@ -1,0 +1,58 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+log4j:WARN No appenders could be found for logger (io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+{"logLevel":"debug","message":"gauge-java took 958milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 958"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 57486"}
+{"logLevel":"info","message":"Listening on port:57486"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.PantolonSec' and 'Test.StepImplementation.PantolonSec'"}
+{"logLevel":"debug","message":"Found Pantolon seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.KadınıSec' and 'Test.StepImplementation.KadınıSec'"}
+{"logLevel":"debug","message":"Found Kadın bölümünü seç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.LastPants' and 'Test.StepImplementation.LastPants'"}
+{"logLevel":"debug","message":"Found Pantolon Seçme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.GeriTiklama' and 'Test.StepImplementation.GeriTiklama'"}
+{"logLevel":"debug","message":"Found Geri Tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Account' and 'Test.StepImplementation.Account'"}
+{"logLevel":"debug","message":"Found Hesabıma Tıklama in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.AssertShopping' and 'Test.StepImplementation.AssertShopping'"}
+{"logLevel":"debug","message":"Found ASSERT Main in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Swipe' and 'Test.StepImplementation.Swipe'"}
+{"logLevel":"debug","message":"Found Kaydırma in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Sleep' and 'Test.StepImplementation.Sleep'"}
+{"logLevel":"debug","message":"Found {} saniye kadar bekleme in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.AlisveriseBasla' and 'Test.StepImplementation.AlisveriseBasla'"}
+{"logLevel":"debug","message":"Found Alışverişe başla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.KategorileriAc' and 'Test.StepImplementation.KategorileriAc'"}
+{"logLevel":"debug","message":"Found Kategorileri aç in current project scope."}
+{"logLevel":"debug","message":"Comparing 'Test.StepImplementation.Cart' and 'Test.StepImplementation.Cart'"}
+{"logLevel":"debug","message":"Found Sepetime Tıkla in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tPantolon seç : public void PantolonSec()"}
+{"logLevel":"debug","message":"\tSepetime Tıkla : public void Cart()"}
+{"logLevel":"debug","message":"\tKategorileri aç : public void KategorileriAc()"}
+{"logLevel":"debug","message":"\tAlışverişe başla : public void AlisveriseBasla()"}
+{"logLevel":"debug","message":"\tKadın bölümünü seç : public void KadınıSec()"}
+{"logLevel":"debug","message":"\tKaydırma : public void Swipe() throws InterruptedException"}
+{"logLevel":"debug","message":"\t{} saniye kadar bekleme : public void Sleep(ınt x) throws InterruptedException"}
+{"logLevel":"debug","message":"\tHesabıma Tıklama : public void Account()"}
+{"logLevel":"debug","message":"\tASSERT Main : public void AssertShopping()"}
+{"logLevel":"debug","message":"\tGeri Tıklama : public void GeriTiklama()"}
+{"logLevel":"debug","message":"\tPantolon Seçme : public void LastPants()"}
+!!!!!!!!!!!!!!!!!!!!!!!!!!!Test basliyor!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Tem 25, 2021 11:21:37 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekleme' using 'class Test.StepImplementation.Sleep"}
+{"logLevel":"debug","message":"Executing 'Alışverişe başla' using 'class Test.StepImplementation.AlisveriseBasla"}
+{"logLevel":"debug","message":"Executing '{} saniye kadar bekleme' using 'class Test.StepImplementation.Sleep"}
+{"logLevel":"debug","message":"Executing 'Kategorileri aç' using 'class Test.StepImplementation.KategorileriAc"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
